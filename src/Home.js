@@ -3,8 +3,6 @@ import React, { useEffect, useState } from 'react'
 
 
 function Home() {
-
-
   const[oldUsername , setOldUsername] = useState(localStorage.getItem("Username"))
 
   useEffect(() =>{
@@ -26,3 +24,5 @@ function Home() {
 }
 
 export default Home
+
+// demo
